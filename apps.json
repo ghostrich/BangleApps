@@ -4862,7 +4862,7 @@
   "name": "FoodMem - What did you eat last?",
   "shortName":"FoodMem",
   "version":"0.01",
-  "description": "Memorize the food you had in the last couple of days",
+  "description": "Memorize the sequence of food you ate in the last couple of days",
   "icon": "app.png",
   "tags": "game",
   "supports" : ["BANGLEJS2"],  
