@@ -4864,7 +4864,7 @@
   "version":"0.01",
   "description": "Memorize the food you had in the last couple of days",
   "icon": "app.png",
-  "tags": "",
+  "tags": "game",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
   "storage": [
