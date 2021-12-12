@@ -14,6 +14,11 @@ Bangle.on('touch', function(button, xy) {
   } else {
   print("x/y "+xy.x+" "+xy.y); }});
 
+let sequence = [];
+for (var i = 0; i <= 6; i++) {
+  sequence.push(Math.floor(Math.random() * 4));
+}
+
 var img = E.toArrayBuffer(atob("Mi6BAf//////////8A//////+fB//////PvD/////34OP////9/44/////B/jn////3D+ef///9+H9z///+f8f/f///v/x/5///zj/P/P//9zP8/5//+Z7/n/P//u+e+f5//zP3nz/f/9z58+f7/+c+/v5+f/vgP//OH/z8P//7J/9n///vHP/d//Bzxz/vf/nM+c/7n777vnP8/+++/jn/f/3vvzz/n//5zx5/74//Bx4/85z//x4//e+8f44//3vuX54//57zv54//++d/84///Pwf/Y///2+fnw///5n/w4///+8/9mf///P/jRn///3/gQZ///5/jl2f//+/Dhdn///mHHHZ///4PHx2f//+OH/8n///wP//D///////5///8A=="));
 g.drawImage(img,26,40);
 
