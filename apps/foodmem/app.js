@@ -1,13 +1,6 @@
 g.clear();
 g.setColor(0,0,0);
-g.fillRect(0, 20, 88, 100);
-//g.setColor(0,0,255);
-g.fillRect(88, 20, 200, 100);
-//g.setColor(0,255,0);
-g.fillRect(88, 100, 200, 200);
-//g.setColor(255,255,0);
-g.fillRect(0, 100, 88, 200);
-
+g.fillRect(0,20,200,200);
 
 Bangle.on('touch', function(button, xy) {
   if (xy.x < 88 && xy.y < 100) {
