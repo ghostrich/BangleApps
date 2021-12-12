@@ -4859,7 +4859,7 @@
   ]
 },
   { "id": "foodmem",
-  "name": "Memorize the food you had in the last couple of days",
+  "name": "FoodMem - What did you eat last?",
   "shortName":"FoodMem",
   "version":"0.01",
   "description": "Memorize the food you had in the last couple of days",
